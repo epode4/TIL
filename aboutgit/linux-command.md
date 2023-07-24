@@ -14,6 +14,8 @@
     - `cd ..` (optional) : 상위 폴더로 이동
     - `~` (optional) : 홈으로 이동
     - `~/Desktop/camp29/TIL` (optional) : 원하는 폴더로 이동   
+
+
    
 - `mkdir <폴더 이름>`
     - make directory
