@@ -15,8 +15,6 @@
     - `~` (optional) : 홈으로 이동
     - `~/Desktop/camp29/TIL` (optional) : 원하는 폴더로 이동   
 
-
-   
 - `mkdir <폴더 이름>`
     - make directory
     - 폴더 생성
@@ -28,3 +26,4 @@
     - remove
     - 파일, 폴더 삭제
     - `-r` (optional) : 폴더 삭제를 위해 입력 필요
+    
