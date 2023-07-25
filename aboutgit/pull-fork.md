@@ -4,7 +4,7 @@
 1. `Repository` 생성
 2. Setting - Collaborators - Add People
 
-## `clone`으로 내려받기
+## clone으로 내려받기
 1. `Repository` code copy
 2. open `Git Bash`
 3. write
@@ -27,7 +27,7 @@ git clone <remote url>
 
 ## clone git
 1. `clone` 으로 내려받는 과정 실행
-> 자신의 repo로 생성되었는지 확인 후 자신의 repo code로 실행
+- 자신의 repo로 생성되었는지 확인 후 자신의 repo code로 실행
 
 ## pull request
 1. `Repository` 상단 `Pull requests` 선택
@@ -35,5 +35,6 @@ git clone <remote url>
 3. ← 화살표 좌측은 pull 할 대상의 repo
 화살표 우측은 자신의 repo로 설정한 뒤 pull
 
+- 이후 합병을 진행하고 싶으면 `merge`를 통해 합병을 진행
 
 
