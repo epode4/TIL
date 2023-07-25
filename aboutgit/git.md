@@ -50,3 +50,12 @@ git push origin master
 - `master` 브런치를 `origin` 원격저장소로 업로드
 - 사진을 github과 연결해서 업로드
 
+```shell
+git clone <remoteurl>
+```
+- 원격 저장소에 있는 레포를 현재 폴더에 저장
+
+```shell
+git pull origin master
+```
+- 원격 저장소에 마지막 코드 상태를 다운로드
