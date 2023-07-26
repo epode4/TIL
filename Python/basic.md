@@ -182,3 +182,117 @@ age = 20
 - `is` (identify)
     - `a is b`
     - True, False의 결과로 출력
+
+<br>
+
+## 3. 형변환
+    
+1. 암시적 형변환
+2. 명시적 형변환
+
+
+### 3-1. 암시적 형변환
+
+`True`, `False` 값이 숫자와 더해질 때 암시적으로 값이 변환됨
+- `True` : 1
+- `False` : 0
+
+
+<br>
+
+### 3-2. 명시적 형변환
+
+- `int()` : string, float를 int로 변환
+- `float()` : string, int를 float로 변화
+- `str()` : int, float 등을 string으로 변환
+- `bool()` : int, list 등을 boolean으로 변환
+
+<br>
+
+## 4. Sequence 자료형
+데이터의 순서대로 나열된 자료구조 (정려될 것과는 다름)
+
+1. List
+2. Tuple
+3. Range
+4. String
+
+<br>
+
+### 4-1. List
+- 선언 : 변수이름 = [value1, value2, value3]
+- 접근 : 변수이름[index]
+> 수정 가능 (mutable)
+
+### 4-2. Tuple
+
+- 선언 : 변수이름 = (value1, value2, value3)
+- 접근 : 변수이름[index]
+
+> 수정 불가능 (immutable)
+
+### 4-3. Range
+- range(n) : 0부터 n-1까지 범위
+- range(n, m) : n부터 m-1까지 범위
+- range(n, m, s) : n부터 m-1까지 +s만큼 증가하는 범위
+
+### 4-4. String
+
+기본 데이터 구조 참고
+
+<br>
+
+### 4-5. Sequence에서 활용 가능한 연산/함수
+
+- `indexing[n]` : 원하는 자리의 값 뽑아내기
+- `slicing[n:m]` : n부터  m전까지 뽑아내기
+    - [n:m:k] : k 간격으로 n부터 m전까지 뽑아내기 
+- `in` : 안에 있는지 확인하고 True, False 출력
+    - `not in` : 없는지 확인
+- `+` : 연결해서 붙이기
+- `*` : 뒤에 오는 숫자만큼 연결하기
+- `len` : 길이 출력
+- `min` : 최솟값 출력
+- `max` : 최댓값 출력
+- `.count(n)` : n이 몇 번 들어가있는지 출력
+
+<br>
+
+## 5. Sequence가 아닌 자료구조
+
+1. Set
+2. Dictionary
+
+<br>
+
+### 5-1. Set
+- 선언 : 변수이름 = {value1, value2, value3}
+
+수학에서 사용하는 집합과 동일하게 처리(중복값 없음)
+
+
+
+```python 
+차집합
+set_a - set_b
+
+합집합 (중복값 제거)
+set_a |set_b
+
+교집합
+set_a & set_b
+```
+
+<br>
+
+### 5-2. Dictionary
+
+- 선언 : 변수이름 = {key1: value1, key2: value2}
+
+- 접근 : 변수이름[key]
+
+- dictionary는 key와 value가 쌍으로 이루어져있다.
+
+- key에는 immutable한 모든 것을 사용가능 (불변값 : string, integar)
+
+- value에는 모든 데이터 가능 (list, dictionary도 가능)
