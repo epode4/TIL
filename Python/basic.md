@@ -211,7 +211,7 @@ age = 20
 <br>
 
 ## 4. Sequence 자료형
-데이터의 순서대로 나열된 자료구조 (정려될 것과는 다름)
+데이터의 순서대로 나열된 자료구조 (정렬된 것과는 다름)
 
 1. List
 2. Tuple
@@ -297,3 +297,25 @@ set_a & set_b
 - key에는 immutable한 모든 것을 사용가능 (불변값 : string, integar)
 
 - value에는 모든 데이터 가능 (list, dictionary도 가능)
+
+<br>
+
+## 자료구조
+
+`mutable` : 수정 가능한 객체
+`immutable` : 수정 불가능한 객체
+`iterable` : 반복 가능한 객체
+
+- Sequence
+
+1. [List] : mutable
+2. (Tuple) : immutable
+3. range() : immutable
+4. 'string' : immutable
+
+- Not Sequence
+
+1. {Set} : mutable
+2. {Dictionary} : mutable
+
+- iterable : Sequence & Not Sequence 모두 가능
