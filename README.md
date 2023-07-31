@@ -23,6 +23,6 @@
 
  - [function](https://github.com/epode4/TIL/blob/master/Python/function.md)
 
- - [data structure]()
+ - [data structure](https://github.com/epode4/TIL/blob/master/Python/data_structure.md)
 
- - [module & package]()
+ - [module & package](https://github.com/epode4/TIL/blob/master/Python/module.md)
