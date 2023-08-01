@@ -9,7 +9,7 @@ object.method()
 
 # 1. String method
 
-String : immtable 하기에 원본 데이터는 수정되지 않음
+String : immutable 하기에 원본 데이터는 수정되지 않음
 ```python
 a = 'hi hello'
 b = a.title(a)
@@ -17,35 +17,41 @@ print(b)
 ```
 ---
 
-### `''.join(iterable)`
+`''.join(iterable)`
+
 iterable한 객체를 ' ' 안 구분자를 사용해 붙인 뒤 하나의 문자열로 출력
 
 ---
-### `replace(old, new[,count])`
+`.replace(old, new[,count])`
+
 string 속 old 문자를 new 문자로 변환(count를 통해 개수 지정 가능)
 
 ---
-### `.strip([chars])`
+`.strip([chars])`
+
 chars에서 원하는 문자나 공백 제거
 
 ---
-### `.find(x)`
+`.find(x)`
+
 string에서 원하는 문자의 index 출력
 (중복일 경우 첫번째만 출력)
 
 ---
-### `.index(x)`
+`.index(x)`
 
 string에서 원하는 문자의 index 출력
 
 > `.find()`와 `.index()`의 차이점 : string 에 없는 값을 입력하면 `.find()` 는 -1의 음수 값 출력 / `.index()` 는 에러 발생
 
 ---
-### `.split()`
+`.split()`
+
 구분자를 사용하여 string을 분할한 뒤 list로 저장
 
 ---
-### `.count(x)`
+`.count(x)`
+
 string 속 원하는 문자의 개수 출력
 
 <br>
@@ -60,31 +66,38 @@ print(a)
 ```
 
 ---
-### `.append(x)`
+`.append(x)`
+
 원하는 요소를 list 마지막에 추가
 
 ---
-### `.extend(iterable)`
+`.extend(iterable)`
+
 원하는 list를 list 마지막에 추가(list + list 와 동일함)
 
 ---
-### `.insert(idx,x)`
+`.insert(idx,x)`
+
 지정한 index 자리에 원하는 요소 추가
 
 ---
-### `.remove(x)`
+`.remove(x)`
+
 원하는 요소를 list 에서 제거
 
 ---
-### `.pop([idx])`
+`.pop([idx])`
+
 index 값을 입력하면 해당 위치의 요소 삭제, 입력값이 없으면 맨 뒤의 값부터 삭제
 
 ---
-### `.sort([reverse = True])`
+`.sort([reverse = True])`
+
 list 값을 오름차순으로 정렬, 내림차순을 원할 시 옵션 입력
 
 ---
-### `.reverse()`
+`.reverse()`
+
 list를 역순으로 변환
 
 <br>
@@ -153,16 +166,17 @@ my_list = [i for i in numbers if i == n]
 Dictionary : mutable
 
 
-### `.pop(key[, default])`
+`.pop(key[, default])`
+
 해당하는 key와 value 같이 삭제, 해당값이 없는 경우 default 값 출력
 
 ---
-### `.update(key = value)`
+`.update(key = value)`
 
 해당하는 key의 value 입력한 값으로 바꾸기
 
 ---
-### `.get(key[, default])`
+`.get(key[, default])`
 
 해당하는 key의 value 값 출력, 해당값이 없는 경우 default 값 출력
 
@@ -191,21 +205,23 @@ result = [k:v for k,v in dict.items() if v > n]
 # 4. Set Method
 method가 작동(추가, 삭제)하는 위치가 랜덤
 
-### `.add(x)`
+`.add(x)`
+
 원하는 요소 set에 추가(중복된 데이터는 추가되지 않음)
 
 ---
-### `.update({x, y})`
+`.update({x, y})`
+
 원하는 요소 set에 추가, 단어만 넣을 경우 단어 속 철자별로 추가되기에 set 형식으로 추가해야 함
 
 ---
 
-### `.remove(x)`
+`.remove(x)`
 
 원하는 요소 set에서 삭제
 
 ---
-### `.pop()`
+`.pop()`
 랜덤한 요소 set에서 삭제
 
 <br>
