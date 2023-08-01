@@ -68,7 +68,7 @@ def function(*parameters):
 임의의 개수의 키워드 인자를 받음
 - `dictionary` 형태로 저장
 ```python 
-def function(*kwargs):
+def function(**kwargs):
     return
 ```
 
