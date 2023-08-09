@@ -34,4 +34,4 @@
 
  - [Stack](https://github.com/epode4/TIL/blob/master/SW_basic/Stack/stack_basic.md)
 
- - [Queue](https://github.com/epode4/TIL/blob/master/SW_basic/Queue/quque_basic.md)
+ - [Queue](https://github.com/epode4/TIL/blob/master/SW_basic/Queue/queue_basic.md)
