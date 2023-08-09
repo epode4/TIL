@@ -61,3 +61,14 @@ def bfs(v):                 # 시작 정점 v에서 시작
             if not visited[link]:   # 연결된 정점 방문하지 않았다면
                 queue.append(link)  # queue에 정점 추가
 ```
+---
+
+<br>
+
+queue 구조를 활용해 BFS 알고리즘으로 푸는 문제 예시
+
+[노드의 거리](https://github.com/epode4/Practice_code/tree/master/SWEA/5102_%EB%85%B8%EB%93%9C%EC%9D%98%EA%B1%B0%EB%A6%AC)
+
+[미로의 거리](https://github.com/epode4/Practice_code/tree/master/SWEA/5105_%EB%AF%B8%EB%A1%9C%EC%9D%98%EA%B1%B0%EB%A6%AC)
+
+[피자 굽기](https://github.com/epode4/Practice_code/tree/master/SWEA/5099_%ED%94%BC%EC%9E%90%EA%B5%BD%EA%B8%B0)
