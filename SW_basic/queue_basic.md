@@ -5,7 +5,7 @@
 - FIFO(First In First Out)
 - python에서는 **list** 사용
 
-![Queue](./../assets/Queue-Data-Structures.png)
+![Queue](./assets/Queue-Data-Structures.png)
 
 - Queue에 enQueueee
 ```python 
@@ -31,7 +31,7 @@ def deQueue():
 
 - **Queue** 을 사용하여 알고리즘 구현
 
-![BFS](./../assets/BFS.png)
+![BFS](./assets/BFS.png)
 
 <br>
 
