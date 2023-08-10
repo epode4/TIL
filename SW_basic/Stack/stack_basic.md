@@ -100,7 +100,10 @@ stack 구조를 활용해 DFS 알고리즘으로 푸는 문제 예시
 
 ## Backtracking(백트래킹)
  
-해를 찾는 도중 막히면 되돌아가서 다시 해를 찾는 방법 
+해를 찾는 도중 막히면 되돌아가서 다시 해를 찾는 방법 (완전탐색 해당)
+- BFS, DFS 같은 규칙 존재재
+- 가지치기 : 해답의 가능성이 없다고 생각되는 노드가 포함되는 경로는 더이상 고려하지 않음
+
 
 | Backtracking | DFS |
 |:---:|:---:|
@@ -108,7 +111,6 @@ stack 구조를 활용해 DFS 알고리즘으로 푸는 문제 예시
 |모든 후보 검사 X | 모든 후보 검사|
 | 가지치기 O | 가지치기 X |
  
- - 가지치기 : 해답의 가능성이 없다고 생각되는 노드가 포함되는 경로는 더이상 고려하지 않음
 
 ---
 
@@ -118,5 +120,5 @@ stack 구조를 활용해 DFS 알고리즘으로 푸는 문제 예시
 
  [배열 최소 합(4881)](https://github.com/epode4/Practice_code/tree/master/SWEA/4881_%EB%B0%B0%EC%97%B4%EC%B5%9C%EC%86%8C%ED%95%A9)
 
- [미로](https://github.com/epode4/Practice_code/tree/master/SWEA/4875_%EB%AF%B8%EB%A1%9C)
+ [미로(4875)](https://github.com/epode4/Practice_code/tree/master/SWEA/4875_%EB%AF%B8%EB%A1%9C)
 
