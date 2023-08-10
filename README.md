@@ -32,6 +32,8 @@
 
  ### Programming Intermediate
 
- - [Stack](https://github.com/epode4/TIL/blob/master/SW_basic/Stack/stack_basic.md)
+ - [Stack](https://github.com/epode4/TIL/blob/master/SW_basic/stack_basic.md)
 
- - [Queue](https://github.com/epode4/TIL/blob/master/SW_basic/Queue/queue_basic.md)
+ - [Queue](https://github.com/epode4/TIL/blob/master/SW_basic/queue_basic.md)
+
+ - [Tree](https://github.com/epode4/TIL/blob/master/SW_basic/tree_basic.md)
